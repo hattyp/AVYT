@@ -1,0 +1,163 @@
+.g-container {
+	max-width: 1060px;
+	margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #000;
+    background: #ffdb00;
+}
+
+.g-row {
+    
+}
+
+.g-1,
+.g-2,
+.g-2half,
+.g-3,
+.g-4,
+.g-5,
+.g-6,
+.g-7,
+.g-8,
+.g-9,
+.g-10,
+.g-11,
+.g-12 {
+    float: left;
+    margin: 0 1% 20px;
+}
+
+
+.g-1 {
+    width: 8.33%;
+}
+.g-2 {
+    width: 16.66%;
+}
+.g-2half {
+    width: 18%;
+}
+.g-3 {
+    width: 23%;
+}
+.g-4 {
+    width: 33.33%;
+}
+.g-5 {
+    width: 41.66%;
+}
+.g-6 {
+    width: 50%;
+}
+.g-7 {
+    width: 58.33%;
+}
+.g-8 {
+    width: 66.66%;
+}
+.g-9 {
+    width: 75%;
+}
+.g-10 {
+    width: 83.33%;
+}
+.g-11 {
+    width: 91.66%;
+}
+.g-12 {
+    width: 100%;
+}
+
+.g-col-content {
+    color: #000;
+    /*margin-right: 1em;*/
+    background: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .g-1,
+    .g-2,
+    .g-3,
+    .g-4,
+    .g-5,
+    .g-6,
+    .g-7,
+    .g-8,
+    .g-9,
+    .g-10,
+    .g-11,
+    .g-12 {
+        width: 100%;
+        float: none;
+    }
+
+	#menuCollapse {
+		display: block;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .channel-content-item {
+        width: 100%;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    /* Style adjustments for viewports that meet the condition */
+    .page-banner {
+        padding: 0 1.5em;
+    }
+
+    /*.g-row {
+        margin-left: 1em;
+    }
+
+    .g-col-content {
+        margin-right: 1em;
+    }*/
+}
+
+@media only screen and (min-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+    .page-banner {
+        padding: 0 2em;
+    }
+
+    .g-2half {
+        width: 20%;
+    }
+
+    /*.g-row {
+        margin-left: 1.5em;
+    }
+
+    .g-col-content {
+        margin-right: 1.5em;
+    }*/
+}
+
+@media only screen and (min-width: 1366px) {
+    /* Style adjustments for viewports that meet the condition */
+    .page-banner {
+        padding: 0 3em;
+    }
+
+    .g-2half {
+        width: 25%;
+    }
+
+    /*.g-row {
+        margin-left: 2em;
+    }
+
+    .g-col-content {
+        margin-right: 2em;
+    }*/
+
+}
